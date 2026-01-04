@@ -31,7 +31,7 @@ def your_optimization_alg(
     # PLEASE DO NOT MODIFY THE CODE ABOVE THIS LINE
     # -----------------------------------------------------------------------------------
 
-    for episode in tqdm.tqdm(range(int(max_episodes))):
+    for episode in tqdm(range(int(max_episodes))):
 
         # Your implementation goes here
 
